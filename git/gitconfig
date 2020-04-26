@@ -1,0 +1,15 @@
+[user]
+	name = 
+	email = 
+[http]
+	sslverify = false
+[credential]
+	helper = cache --timeout=3600
+[diff]
+	tool = meld
+[merge]
+    tool = meld
+[core]
+    excludesfile = ~/.gitignore_global
+[commit]
+    template = ~/.gitCommitMsg.template

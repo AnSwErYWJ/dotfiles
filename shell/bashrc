@@ -1,0 +1,52 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# User specific aliases and functions
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:$PATH
+
+#fcitx
+export LANG="zh_CN.UTF-8"
+export LC_CTYPE="en_US.UTF-8"
+export LC_NUMERIC="en_US.UTF-8"
+export LC_TIME="en_US.UTF-8"
+export LC_COLLATE="en_US.UTF-8"
+export LC_MONETARY="en_US.UTF-8"
+export LC_MESSAGES="en_US.UTF-8"
+export LC_PAPER="en_US.UTF-8"
+export LC_NAME="en_US.UTF-8"
+export LC_ADDRESS="en_US.UTF-8"
+export LC_TELEPHONE="en_US.UTF-8"
+export LC_MEASUREMENT="en_US.UTF-8"
+export LC_IDENTIFICATION="en_US.UTF-8"
+export LC_ALL=
+
+export XIM=fcitx
+export XIM_PROGRAM=fcitx
+export GTK_IM_MODULE=xim
+export XMODIFIERS=@im=fcitx
+
+#java
+#export JAVA_HOME=/usr/java/jdk1.8.0_65
+#export JAVA_BIN=/usr/java/jdk1.8.0_65/bin
+#export PATH=$PATH:$JAVA_HOME/bin
+#export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+#export JAVA_HOME JAVA_BIN PATH CLASSPATH
+
+#python
+#export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
+#export PATH="/usr/local/bin:/usr/local/sbin/:/usr/local/share/python:$PATH"
+#export PATH="$PATH:/usr/local/python3/bin"
+
+#GLIBC_2.14
+#export LD_LIBRARY_PATH="/opt/glibc-2.14/lib"
+
+# history time
+export HISTTIMEFORMAT="%F %T  "
+
+# alias
+alias rm="ls"
+alias reboot="ls"

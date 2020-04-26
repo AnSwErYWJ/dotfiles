@@ -1,0 +1,8 @@
+# .gitignore_global
+
+## .vscode
+.vscode
+
+## DS_STORE
+.DS_Store 
+*/.DS_Store
