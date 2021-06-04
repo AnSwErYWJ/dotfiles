@@ -17,3 +17,9 @@
     path = .gitconfig-personal
 [includeIf "gitdir:~/Workspace/work/"]
     path = .gitconfig-work
+
+# windows下需要配置可执行文件路径
+#[mergetool "meld"]
+#	path = C:\\Program Files (x86)\\Meld\\Meld.exe
+#[difftool "meld"]
+#	path = C:\\Program Files (x86)\\Meld\\Meld.exe
