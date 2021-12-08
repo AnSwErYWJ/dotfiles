@@ -110,27 +110,9 @@ source $ZSH_CUSTOM/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 alias rm="ls"
 alias reboot="ls"
 
-################################################################################
-# needs manual configuration begin
-################################################################################
-
-# java
-###### --only for linux
-export JAVA_HOME=/usr/java/jdk1.8.0_11
-export JAVA_BIN=/usr/java/jdk1.8.0_11/bin
-export PATH=$PATH:$JAVA_HOME/bin
-export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
-export JAVA_HOME JAVA_BIN PATH CLASSPATH
-
-# nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# man with zh_CN
+alias cman='man -M /usr//share/man/zh_CN'
 
 # HOMEBREW_BOTTLE_DOMAIN
 ###### --only for mac
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
-
-################################################################################
-# needs manual configuration end
-################################################################################
