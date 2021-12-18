@@ -8,6 +8,7 @@
     tool = meld
 [core]
     excludesfile = ~/.gitignore_global
+    autocrlf = false
 [commit]
     template = ~/.gitCommitMsg.template
 #[user]

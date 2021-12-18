@@ -16,7 +16,7 @@ $ brew install vim ctags git astyle
 ```
 $ sudo ln -s /usr/bin/ctags /usr/local/bin/ctags
 
-$ sudo rm -rf ~/vim
+$ sudo rm -rf ~/vim ~/.vim
 $ git clone https://github.com/OhOhOhOhOhOhOhOh/vim.git ~/vim
 $ mv -f ~/vim ~/.vim
 $ cp -f ./vimrc ~/.vimrc
