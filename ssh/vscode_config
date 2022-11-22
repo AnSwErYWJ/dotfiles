@@ -1,0 +1,4 @@
+# remote.com.cn
+Host remote
+HostName remote.com.cn
+User username
